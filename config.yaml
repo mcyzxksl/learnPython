@@ -1,0 +1,35 @@
+"server":
+    "port": !!int "8888"
+"mysql":
+    "host": "127.0.0.1"
+    "db": "test"
+    "port": !!int "3306"
+    "user": "root"
+    "passwd": "asdf"
+    "pool_size": !!int "30"
+    "max_overflow": !!int "0"
+    "pool_timeout": !!int "30"
+"redis":
+    "host": "10.230.32.193" 
+    "port": !!int "6379"
+    "db": !!int  "0"
+    "max_connections": !!int "300"
+"celery":
+    "broker": "redis://172.17.99.75:6379/0"
+    "backend": "redis://172.17.99.75:6379/1"
+"zabbix":
+    "api_url": "server"
+    "user": "ane56"
+    "passwd": "***"
+"A10":
+    "host": "server"
+    "username": "user"
+    "password": "***"
+"wechat":
+    "agentID": "111111111"
+    "CorpID": "111111111111"
+    "Secret": "1111111111111-oJFjeYuQY"
+    "redirect_uri": "xxx"
+    "URL_PREFIX": "https://qyapi.weixin.qq.com/cgi-bin"
+"wx":
+    "api": ""
